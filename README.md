@@ -2,7 +2,7 @@
 
 This is a simple webpage project that demonstrates the use of HTML, CSS, and JavaScript to create a webpage with a navigation bar and display browser attributes and geolocation information.
 
-To view the webpage, click on the link below:
+To view the webpage, open up the following link:
 https://venus.cs.qc.cuny.edu/~bijo6541/ 
 
 ## Table of Contents
