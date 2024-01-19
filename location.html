@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Location Properties</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Location Properties</h1>
+      <!--Top Navigation Bar for the course, browser, and about sections-->
+      <nav>
+        <ul class="topnav">
+          <li><a href="index.html">Home Page</a></li>
+          <!--Dropdown for course links-->
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Course Links &#9662;</a>
+            <div class="dropdown-content">
+              <a href="https://app.tophat.com/e/776977" target="_blank"
+                >Tophat</a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1Ak_kUW07RMNZgiEnxxbbLKjSg__lKE6j"
+                target="_blank"
+                >Google Drive</a
+              >
+              <a
+                href="https://gaia.cs.umass.edu/kurose_ross/eighth.php"
+                target="_blank"
+                >Kurose and Ross Webpage</a
+              >
+              <a href="http://w3schools.com" target="_blank">W3Schools</a>
+              <a
+                href="https://www.geeksforgeeks.org/web-development/"
+                target="_blank"
+                >GeeksforGeeks Web Development</a
+              >
+            </div>
+          </li>
+          <!--Dropdown for browser properties-->
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Browser &#9662;</a>
+            <div class="dropdown-content">
+              <a href="navigator.html">Navigator</a>
+              <a href="window.html">Window</a>
+              <a href="screen.html">Screen</a>
+              <a href="location.html">Location</a>
+              <a href="geolocation.html">Geolocation</a>
+            </div>
+          </li>
+          <!--Dropdown for about pages-->
+          <li class="dropdown">
+            <a href="#" class="dropbtn">About &#9662;</a>
+            <div class="dropdown-content">
+              <a href="description.html">Description of Developer</a>
+              <a href="contact.html">Contact Me</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="browser">
+        <!--Location Subsection-->
+        <h2>Location</h2>
+        <!--Location Properties-->
+        <ul>
+          <li><span id="locationHref"></span></li>
+          <li><span id="locationHostname"></span></li>
+          <li><span id="locationPathname"></span></li>
+          <li><span id="locationProtocol"></span></li>
+        </ul>
+      </section>
+    </main>
+    <script>
+      // Location properties
+      document.getElementById("locationHref").innerHTML =
+        "window.location.href is " + window.location.href;
+      document.getElementById("locationHostname").innerHTML =
+        "window.location.hostname is " + window.location.hostname;
+      document.getElementById("locationPathname").innerHTML =
+        "window.location.pathname is " + window.location.pathname;
+      document.getElementById("locationProtocol").innerHTML =
+        "window.location.protocol is " + window.location.protocol;
+    </script>
+  </body>
+</html>

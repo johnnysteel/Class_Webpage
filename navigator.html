@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navigator Properties</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Navigator Properties</h1>
+      <!--Top Navigation Bar for the course, browser, and about sections-->
+      <nav>
+        <ul class="topnav">
+          <li><a href="index.html">Home Page</a></li>
+          <!--Dropdown for course links-->
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Course Links &#9662;</a>
+            <div class="dropdown-content">
+              <a href="https://app.tophat.com/e/776977" target="_blank"
+                >Tophat</a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1Ak_kUW07RMNZgiEnxxbbLKjSg__lKE6j"
+                target="_blank"
+                >Google Drive</a
+              >
+              <a
+                href="https://gaia.cs.umass.edu/kurose_ross/eighth.php"
+                target="_blank"
+                >Kurose and Ross Webpage</a
+              >
+              <a href="http://w3schools.com" target="_blank">W3Schools</a>
+              <a
+                href="https://www.geeksforgeeks.org/web-development/"
+                target="_blank"
+                >GeeksforGeeks Web Development</a
+              >
+            </div>
+          </li>
+          <!--Dropdown for browser properties-->
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Browser &#9662;</a>
+            <div class="dropdown-content">
+              <a href="navigator.html">Navigator</a>
+              <a href="window.html">Window</a>
+              <a href="screen.html">Screen</a>
+              <a href="location.html">Location</a>
+              <a href="geolocation.html">Geolocation</a>
+            </div>
+          </li>
+          <!--Dropdown for about pages-->
+          <li class="dropdown">
+            <a href="#" class="dropbtn">About &#9662;</a>
+            <div class="dropdown-content">
+              <a href="description.html">Description of Developer</a>
+              <a href="contact.html">Contact Me</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="browser">
+        <!--Navigator Subsection-->
+        <h2>Navigator</h2>
+        <!--Navigator Properties-->
+        <ul>
+          <li><span id="appName"></span></li>
+          <li><span id="product"></span></li>
+          <li><span id="appVersion"></span></li>
+          <li><span id="userAgent"></span></li>
+          <li><span id="platform"></span></li>
+          <li><span id="language"></span></li>
+        </ul>
+      </section>
+    </main>
+    <script>
+      // Navigator properties
+      document.getElementById("appName").innerHTML =
+        "navigator.appName is " + navigator.appName;
+      document.getElementById("product").innerHTML =
+        "navigator.product is " + navigator.product;
+      document.getElementById("appVersion").innerHTML =
+        "navigator.appVersion is " + navigator.appVersion;
+      document.getElementById("userAgent").innerHTML =
+        "navigator.userAgent is " + navigator.userAgent;
+      document.getElementById("platform").innerHTML =
+        "navigator.platform is " + navigator.platform;
+      document.getElementById("language").innerHTML =
+        "navigator.language is " + navigator.language;
+    </script>
+  </body>
+</html>
