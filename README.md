@@ -35,11 +35,11 @@ There is no specific installation required for this project. However, if you pla
 ## Contributing
 If you'd like to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature or bug fix: git checkout -b feature/your-feature.
-Make your changes and commit them: git commit -m 'Add some feature'.
-Push to the branch: git push origin feature/your-feature.
-Create a pull request, describing your changes.
+- Fork the repository.
+- Create a new branch for your feature or bug fix: git checkout -b feature/your-feature.
+- Make your changes and commit them: git commit -m 'Add some feature'.
+- Push to the branch: git push origin feature/your-feature.
+- Create a pull request, describing your changes.
 
 ## Contact
 If you have any questions or would like to get in touch, please reach out to jnbissu589@gmail.com
